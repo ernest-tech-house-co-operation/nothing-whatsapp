@@ -1,0 +1,40 @@
+{
+  "name": "nothing-whatsapp",
+  "version": "1.0.0",
+  "description": "WhatsApp Web automation plugin for nothing-browser / Piggy.",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import":  "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "keywords": [
+    "nothing-browser",
+    "piggy",
+    "whatsapp",
+    "whatsapp-web",
+    "automation",
+    "headless",
+    "wwebjs"
+  ],
+  "author": "Ernest Tech House",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BunElysiaReact/nothing-browser"
+  },
+  "homepage": "https://nothing-browser-docs.pages.dev/guide/piggy/",
+  "files": [
+    "src/",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "nothing-browser": ">=0.0.20"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "bun":  ">=1.0.0"
+  }
+}
